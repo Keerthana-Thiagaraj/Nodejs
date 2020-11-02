@@ -3,7 +3,8 @@ let name='Keerthana'
 let gender='female'
 const hasHobbies=true
 
-function userInfo(userName,userGender,userHasHobbies){
+// function userInfo(userName,userGender,userHasHobbies){
+    const userInfo=(userName,userGender,userHasHobbies)=>{
     return ('Name is '+name+', the gender is ' +gender+' and hobbies is '+hasHobbies)
 }
 
